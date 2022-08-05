@@ -40,8 +40,6 @@ This project is intended for update scripts for tools, systems, package managers
 
   * [`update-mix.ps1`](bin/update-mix.ps1): update Mix for Elixir.
 
-  * [`update-motion.ps1`](bin/update-motion.ps1): update Ruby Motion - needs a valid paid license.
-
   * [`update-npm-global.ps1`](bin/update-npm-global.ps1): update Node Package Manager (NPM) via global settings.
 
   * [`update-npm-n-stable.ps1`](bin/update-npm-n-stable.ps1): update Node Package Manager (NPM) via n environment manager.
