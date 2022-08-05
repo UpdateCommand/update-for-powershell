@@ -34,11 +34,13 @@ update.ps1
 
 This project is intended for update scripts for tools, systems, package managers, language modules, et. al.
 
-  * [`update-choc.ps1`](bin/update-choco.ps1): update choco for Windows Chocolatey packages.
+  * [`update-choco.ps1`](bin/update-choco.ps1): update choco for Windows Chocolatey packages.
 
   * [`update-scoop.ps1`](bin/update-scoop.ps1): update scoop for Windows Scoop packages.
   
   * [`update-windows.ps1`](bin/update-windows.ps1): update Microsoft Windows and related products.
+
+  * [`update-rustup.ps1`](bin/update-rustup.ps1): update Rust programming language tooling.
 
 We welcome more scripts.
 
