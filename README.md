@@ -21,10 +21,13 @@ git clone https://github.com/UpdateCommand/update-for-powershell.git $HOME/updat
 Add the `bin` directory to your own path:
 
 ```sh
-export PATH="$PATH:$HOME/update-for-powershell/bin"
+$Env:PATH += ";[HOME]\update-for-powershell\bin"
 ```
+Where `[HOME]` is a placeholder for your home directory, you need to replace it manually. Usually, its value is `C:\Users\[USER_NAME]` (`[USER_NAME]` is another placeholder, type your username there)
 
-Run the script:
+To set the path persistently, go to the "Edit your user Environment Variables" GUI, and add the entry in your user `PATH`
+
+Run the script (`.ps1` is optional, usually):
 
 ```sh
 update.ps1
