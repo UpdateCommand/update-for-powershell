@@ -34,13 +34,31 @@ update.ps1
 
 This project is intended for update scripts for tools, systems, package managers, language modules, et. al.
 
+  * [`update-apm.ps1`](bin/update-apm.ps1): update Atom Package Manager - for the GitHub Atom editor.
+
   * [`update-choco.ps1`](bin/update-choco.ps1): update choco for Windows Chocolatey packages.
 
-  * [`update-scoop.ps1`](bin/update-scoop.ps1): update scoop for Windows Scoop packages.
-  
-  * [`update-windows.ps1`](bin/update-windows.ps1): update Microsoft Windows and related products.
+  * [`update-mix.ps1`](bin/update-mix.ps1): update Mix for Elixir.
+
+  * [`update-motion.ps1`](bin/update-motion.ps1): update Ruby Motion - needs a valid paid license.
+
+  * [`update-npm-global.ps1`](bin/update-npm-global.ps1): update Node Package Manager (NPM) via global settings.
+
+  * [`update-npm-n-stable.ps1`](bin/update-npm-n-stable.ps1): update Node Package Manager (NPM) via n environment manager.
+
+  * [`update-pnpm-global.ps1`](bin/update-pnpm-global.ps1): update Performant Node Package Manager (PNPM) via global settings.
 
   * [`update-rustup.ps1`](bin/update-rustup.ps1): update Rust programming language tooling.
+
+  * [`update-run-first.ps1`](bin/update-run-first.ps1): run custom scripts first, before other commands.
+
+  * [`update-run-last.ps1`](bin/update-run-last.ps1): run custom scripts last, after other commands.
+
+  * [`update-scoop.ps1`](bin/update-scoop.ps1): update scoop for Windows Scoop packages.
+
+  * [`update-yarn.ps1`](bin/update-yarn.ps1): update Yarn JavaScript packages - for yarn upgrade.
+
+  * [`update-windows.ps1`](bin/update-windows.ps1): update Microsoft Windows and related products.
 
 We welcome more scripts.
 
