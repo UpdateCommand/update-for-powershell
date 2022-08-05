@@ -13,22 +13,24 @@ When you run the command `update.ps1`, then the command will run scripts to do s
 ## Install
 
 Clone the repo to your own system:
-
 ```sh
 git clone https://github.com/UpdateCommand/update-for-powershell.git $HOME/update-for-powershell
 ```
 
 Add the `bin` directory to your own path:
-
-```sh
+```ps1
 $Env:PATH += ";[HOME]\update-for-powershell\bin"
 ```
 Where `[HOME]` is a placeholder for your home directory, you need to replace it manually. Usually, its value is `C:\Users\[USER_NAME]` (`[USER_NAME]` is another placeholder, type your username there)
 
 To set the path persistently, go to the "Edit your user Environment Variables" GUI, and add the entry in your user `PATH`
 
-Run the script (`.ps1` is optional, usually):
+Copy the `config` directory to your own directory:
+```sh
+cp -R ~/update/config/update ~/.config/update
+```
 
+Run the script (`.ps1` is optional, usually):
 ```sh
 update.ps1
 ```
